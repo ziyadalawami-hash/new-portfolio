@@ -12,7 +12,7 @@ const Header = ({ data, isRTL }: HeaderProps) => {
 
   const socialLinks = {
     github: "https://github.com/ziyadalawami",
-    linkedin: "https://linkedin.com/in/ziyadalawami",
+    linkedin: "https://linkedin.com/in/ziyadalawami/",
     email: "mailto:ziyad.ahmedalawami@gmail.com"
   };
 
