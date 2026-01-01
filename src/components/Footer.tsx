@@ -72,12 +72,12 @@ const Footer = ({ translations, isRTL }: FooterProps) => {
                 )}
               </button>
               <button
-                onClick={() => copyToClipboard('+1234567890', 'phone')}
+                onClick={() => copyToClipboard('+201015754619', 'phone')}
                 className="flex items-center text-white/80 hover:text-[#1fea00] transition-all duration-300 group relative"
                 aria-label="Copy phone number to clipboard"
               >
                 <Phone size={20} className="mr-2 group-hover:scale-110 transition-transform" />
-                <span dir="ltr">+1 (234) 567-890</span>
+                <span dir="ltr">+20 1015754619</span>
                 {copiedPhone && (
                   <span className="absolute -top-8 left-1/2 -translate-x-1/2 bg-[#1fea00] text-black px-3 py-1 rounded text-sm font-medium whitespace-nowrap" role="status">
                     Copied!
