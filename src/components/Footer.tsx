@@ -107,7 +107,7 @@ const Footer = ({ translations, isRTL }: FooterProps) => {
             <nav aria-label="Social media links">
               <ul className="flex gap-4" style={{ flexDirection: 'row' }}>
                 {[
-                  { icon: <Github size={24} />, href: '#', label: 'GitHub' },
+                  { icon: <Github size={24} />, href: 'https://github.com/ziyadalawami', label: 'GitHub' },
                   { icon: <Linkedin size={24} />, href: '#', label: 'LinkedIn' },
                   { icon: <Mail size={24} />, href: 'mailto:ziyad.ahmedalawami@gmail.com', label: 'Mail' }
                 ].map((social, index) => (
