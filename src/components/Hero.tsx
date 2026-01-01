@@ -13,7 +13,7 @@ const Header = ({ data, isRTL }: HeaderProps) => {
   const socialLinks = {
     github: "https://github.com/ziyadalawami",
     linkedin: "https://linkedin.com/in/ziyadalawami",
-    email: "mailto:ziyad.ahmedalawami@gmail.com"
+    email: "mailto:ziyad.ahmedalawami@gmail.com" 
   };
 
   const scrollToProjects = (e: React.MouseEvent<HTMLButtonElement>) => {
