@@ -109,7 +109,7 @@ const Footer = ({ translations, isRTL }: FooterProps) => {
                 {[
                   { icon: <Github size={24} />, href: 'https://github.com/ziyadalawami', label: 'GitHub' },
                   { icon: <Linkedin size={24} />, href: 'https://linkedin.com/in/ziyadalawami/', label: 'LinkedIn' },
-                  { icon: <Mail size={24} />, href: 'mailto:ziyad.ahmedalawami@gmail.com', label: 'Mail' }
+                  { icon: <Mail size={24} />, href: 'mailto:ziyad.ahmedalawami@gmail.com', label: 'Email' }
                 ].map((social, index) => (
                   <li key={index}>
                     <a
