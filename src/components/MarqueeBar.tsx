@@ -17,7 +17,7 @@ const MarqueeBar = () => {
   }, []);
 
   const navLinks = [
-    { href: '#hero', label: 'Hero' },
+    { href: '#hero', label: 'About' },
     { href: '#projects', label: 'Projects' },
     { href: '#skills', label: 'Skills' },
     { href: '#experience', label: 'Experience' },
